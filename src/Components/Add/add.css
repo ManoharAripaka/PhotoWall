@@ -1,0 +1,67 @@
+.add{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+.one{
+    border: 3px solid rgba(201, 201, 201);
+    border-radius: 10px;
+    width: 22px;
+    margin: 22px 11px;
+}
+.two{
+    border: 3px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    height: 22px;
+    width: 0px;
+    margin: -39px 22px;
+}
+.add:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.addWindow{
+    width: 1100px;
+    height: 600px;
+    position: fixed;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-family:cursive;
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px -1px 163px 200px rgba(0,0,0,0.4);
+    -webkit-box-shadow: -1px -1px 163px 200px rgba(0,0,0,0.4);
+    -moz-box-shadow: -1px -1px 163px 200px rgba(0,0,0,0.4);
+}
+.addWindow #close{
+    color: red;
+    text-align: right;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.addWindow #text, #text1{
+    width: 650px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    padding: 0px 20px;
+    background-color: rgb(230, 224, 224);
+}
+.addWindow #button{
+    margin-top: 50px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color: rgb(76, 221, 76);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addWindow #button:hover{
+    background-color: green;
+}

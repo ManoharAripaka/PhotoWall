@@ -1,0 +1,50 @@
+.post{
+    width: 350px;
+    height: 330px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 17px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 10px 10px 17px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 17px -3px rgba(0,0,0,0.53);
+    margin: 30px;
+    font-family:cursive;
+}
+.post #image{
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.post p{
+    margin: -10px 15px 10px 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.post span{
+    font-weight: bold;
+}
+.post #count{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.post #remove{
+    background-color: whitesmoke;
+    font-weight: bold;
+    border: 2px solid white;
+    text-align: center;
+    margin-left: 90px;
+    width: 40%;
+    padding: 13px;
+    color: red;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.post #remove:hover{
+    border-color: red;
+}
